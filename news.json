@@ -1,69 +1,125 @@
 {
- "updated_at": "2026-11-20T23:07:00+07:00",
+ "updated_at": "2026-11-20T23:46:00+07:00",
  "items": [
   {
-   "time_vn": "2026-11-17T21:06:00",
-   "direction": "down",
-   "category": "DATA",
-   "headline": "US RETAIL SALES BEAT: CORE +0.6% VS +0.4% EST",
-   "body": "Core Retail Sales +0,6% (dự báo +0,4%), toàn phần +0,2% (dự báo +0,1%) — tiêu dùng khỏe hơn dự báo, củng cố kịch bản Fed giữ lãi cao, áp lực lên NQ.",
-   "source": "US Census / Turtle Hub"
-  },
-  {
-   "time_vn": "2026-11-17T21:34:00",
-   "direction": "down",
-   "category": "FED",
-   "headline": "FED'S MUSALEM: FOUR MORE RATE HIKES NEEDED",
-   "body": "Chủ tịch Fed St. Louis Musalem (CNBC) cho rằng cần tăng lãi suất thêm 4 lần nữa — củng cố cược Fed diều hâu, USD mạnh, áp lực lên NQ.",
-   "source": "CNBC"
-  },
-  {
-   "time_vn": "2026-11-18T20:29:00",
-   "direction": "volatile",
-   "category": "FOLDER ĐỎ",
-   "headline": "FOMC MINUTES DUE 02:00 VN — ONLY RED EVENT TONIGHT",
-   "body": "Biên bản FOMC là sự kiện đỏ duy nhất tối 18/11; rơi vào 00:00–04:00 nên chỉ nằm trong lịch preview, không nhắc giữa đêm.",
-   "source": "ForexFactory Calendar"
-  },
-  {
-   "time_vn": "2026-11-18T21:34:00",
-   "direction": "up",
-   "category": "EARNINGS",
-   "headline": "NVIDIA BEATS: Q3 REV $115.8B, EPS $2.68; Q4 GUIDE $130B",
-   "body": "Doanh thu Q3 115,84 tỷ USD (dự báo ~109,1), EPS 2,68 (dự báo ~2,47), Data Center 107,6 tỷ (+110%); hướng dẫn Q4 130 tỷ (dự báo ~125,3). NVDA +2–3% premarket, NQ futures tăng theo.",
-   "source": "Company report"
-  },
-  {
-   "time_vn": "2026-11-18T21:34:00",
+   "time_vn": "2026-11-20T23:46:00",
    "direction": "down",
    "category": "ĐỊA CHÍNH TRỊ",
-   "headline": "IRAN STRIKES EXTEND TO KUWAIT; ADNOC TANKER HIT AT HORMUZ",
-   "body": "Iran nhắm căn cứ Mỹ Ali Al Salem (Kuwait), Bahrain chặn thêm đợt tấn công; tàu ADNOC ở Hormuz bị tấn công (11 bị thương, 1 mất tích). Brent ~92 USD, chưa bật mạnh.",
-   "source": "Turtle Hub News"
+   "headline": "EXPLOSION HEARD OVER IRAN'S QESHM ISLAND, CAUSE UNCONFIRMED",
+   "body": "Dân đảo Qeshm nghe tiếng nổ lớn tối thứ Sáu 20/11, kèm chớp sáng trên bầu trời và khói bốc lên; Fars News Agency dẫn nguồn địa phương cho rằng có thể là đánh chặn một máy bay chưa xác định. Nguyên nhân chưa được xác nhận — có tin chưa kiểm chứng nói một cơ sở phòng không bị đánh trúng hoặc một máy bay bị bắn rơi. Vụ việc xảy ra chỉ 3 ngày sau khi Mỹ không kích đảo Qeshm hôm thứ Ba 17/11, làm tăng rủi ro leo thang quanh eo biển Hormuz trong lúc phiên Mỹ vẫn đang giao dịch.",
+   "source": "Fars News Agency via Siasat / WANA"
   },
   {
-   "time_vn": "2026-11-18T23:05:00",
+   "time_vn": "2026-11-20T23:07:00",
    "direction": "down",
-   "category": "FED",
-   "headline": "FED'S WALLER: 'YOU HAVE TO GO 50 IN DECEMBER'",
-   "body": "Waller (CNBC) kêu gọi tăng 50 điểm cơ bản ngay tháng 12, có thể tổng cộng 100 điểm trở lên; viện 3 tháng liên tiếp core CPI +0,3%. Lợi suất ngắn hạn nhảy lên sau phát biểu.",
-   "source": "CNBC"
+   "category": "TECH-AI",
+   "headline": "NVIDIA SLIPS BELOW ALPHABET IN MARKET VALUE, NOW 4TH LARGEST US COMPANY",
+   "body": "Nvidia rớt xuống hạng 4 trong các công ty Mỹ có giá trị lớn nhất, sau Alphabet (3.400 tỷ USD so với 3.440 tỷ USD, theo LSEG). Cổ phiếu đang hướng tới tuần giảm thứ 7 liên tiếp — chuỗi giảm dài nhất kể từ 2008. Đây là hệ quả trực tiếp của đợt bán tháo AI đã báo tối nay (NVDA -40% từ đỉnh), cho thấy dòng tiền đang xoay khỏi nhóm dẫn dắt AI sang các tên có doanh thu cloud/phần mềm ổn định hơn.",
+   "source": "Reuters"
   },
   {
-   "time_vn": "2026-11-18T23:05:00",
-   "direction": "volatile",
+   "time_vn": "2026-11-20T21:40:00",
+   "direction": "down",
    "category": "TECH-AI",
-   "headline": "SEC PROBES NVIDIA DISCLOSURES; HOUSE PANEL SEEKS BRIEFING",
-   "body": "WSJ: SEC điều tra liệu công bố của Nvidia có gây hiểu lầm nhà đầu tư; Ủy ban Năng lượng & Thương mại Hạ viện yêu cầu CEO tạm quyền Colette Kress báo cáo về xuất khẩu chip. NVDA trả lại hết mức tăng premarket.",
+   "headline": "WSJ: WALL STREET'S $500B NVIDIA FINANCING PLEDGE HAS DEPLOYED ZERO",
+   "body": "WSJ độc quyền ngày 18/11: chương trình tài trợ chip Nvidia công bố tháng 8 — Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs, KKR hứa huy động 500 tỷ USD để khách hàng mua chip — thực chất chỉ là MOU vài trang không ràng buộc, không công ty nào cam kết huy động tiền, và tới nay chưa giải ngân đồng nào. Nvidia chỉ hỗ trợ tối đa 25% chi phí dự án, thỏa thuận đầu tiên cũng không xong trước 2027, CEO tạm quyền Colette Kress đang siết lại các bảo lãnh. Mảng tối trực tiếp của câu chuyện nhu cầu AI, càng đè nặng NVDA vốn đã -40% từ đỉnh tối nay.",
    "source": "WSJ"
   },
   {
-   "time_vn": "2026-11-19T20:29:00",
+   "time_vn": "2026-11-20T21:34:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "US APPROVED 879,000 NVIDIA, AMD AI CHIPS FOR CHINA IN SIX MONTHS",
+   "body": "Ủy ban Đối ngoại Hạ viện Mỹ công bố dữ liệu cấp phép của Bộ Thương mại (BIS): từ 12/2025 đến 05/2026, Mỹ đã phê duyệt xuất khẩu 879.000 chip AI (Nvidia H200, AMD MI325X) sang Trung Quốc, trong đó 150.000 chip cho Tencent, 75.000 cho Alibaba, 43.000 cho Baidu và 4.000 cho BYD — cả 4 đều nằm trong danh sách công ty quân sự Trung Quốc của Lầu Năm Góc. Con số làm rõ quy mô chip AI Mỹ chảy sang Trung Quốc, đúng lúc Nvidia đang bị Tổng chưởng lý California điều tra và Hạ viện mở điều tra vụ Megaspeed — áp lực kiểm soát xuất khẩu với NVDA và AMD tăng thêm, nối dài đà bán nhóm chip/AI. Lưu ý: đây là số chip được phê duyệt cấp phép, chưa rõ bao nhiêu chiếc thực sự đã giao (Reuters).",
+   "source": "Reuters / House Foreign Affairs Committee"
+  },
+  {
+   "time_vn": "2026-11-20T21:20:00",
+   "direction": "down",
+   "category": "ĐỊA CHÍNH TRỊ",
+   "headline": "IRAN READIES TANKER CONVOY TO BREAK US OIL BLOCKADE, WARNS GULF OIL FACILITIES AT RISK",
+   "body": "Iran đã tập kết hơn 14 tàu chở dầu có thủy thủ đoàn tại đảo Kharg, tắt AIS, chuẩn bị đi theo đoàn ra Vịnh Oman trong vài ngày tới để phá phong tỏa dầu của Mỹ; một vụ chuyển dầu tàu-sang-tàu đã bắt đầu, có thể là lô xuất khẩu đầu tiên của Iran kể từ giữa tháng 7. Fars (gắn với IRGC) cảnh báo chỉ cần một viên đạn trúng tàu Iran thì các cơ sở dầu khí của UAE, Saudi, Qatar, Bahrain, Kuwait và Oman sẽ bị đưa vào phương án đáp trả. CENTCOM hôm 18/11 đã mở rộng phong tỏa sang cả chuyển dầu tàu-sang-tàu và cảnh báo có thể dùng vũ lực. Nguy cơ va chạm hải quân Mỹ–Iran trực tiếp tăng mạnh, dầu và tâm lý risk-off có thể đè NQ tối nay.",
+   "source": "Iran International / Saudi Gazette / Al Jazeera"
+  },
+  {
+   "time_vn": "2026-11-20T21:12:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "HOUSE DEMOCRATS OPEN PROBE INTO NVIDIA'S INFLUENCE ON MEGASPEED CHIP INVESTIGATION",
+   "body": "Dân biểu Dân chủ gửi thư ngày 19/11 cho Bộ trưởng Thương mại Lutnick, mở cuộc điều tra xem Nvidia có can thiệp vào quá trình điều tra của Bộ Thương mại về vụ Megaspeed chuyển chip trái phép sang Trung Quốc không; yêu cầu trả lời và tài liệu trước 1/12. WaPo cho biết Dân chủ dự định mở rộng điều tra Nvidia khi nắm lại Quốc hội năm sau. Đây là diễn biến pháp lý mới, tách biệt với trát điều tra của Tổng chưởng lý California đã báo lúc 20:33 — thêm áp lực lên NVDA, cổ phiếu nặng nhất NQ, trong lúc NVDA đã giảm hơn 40% từ đỉnh.",
+   "source": "Reuters / The Washington Post"
+  },
+  {
+   "time_vn": "2026-11-20T21:02:00",
+   "direction": "neutral",
+   "category": "TECH-AI",
+   "headline": "ANTHROPIC IPO HAUL RISES TO $93.5B AS UNDERWRITERS EXERCISE GREENSHOE",
+   "body": "Reuters xác nhận Anthropic cho biết các underwriter đã thực hiện quyền greenshoe, nâng tổng tiền huy động từ IPO lên khoảng 93,5 tỷ USD (1,127 tỷ cổ phiếu × 83 USD). Diễn biến mới so với tối nay: lúc 20:55 con số này vẫn chỉ là mức tối đa giả thuyết vì greenshoe chưa được xác nhận. Hướng NQ trung tính — chỉ xác nhận quy mô IPO kỷ lục, không đổi diễn biến giá tối nay: ANT premarket vẫn ~83,71 USD, -13,9% so với đóng cửa hôm qua.",
+   "source": "Reuters/WSJ"
+  },
+  {
+   "time_vn": "2026-11-20T20:53:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "ANTHROPIC SLIDES TO NEAR IPO PRICE, DOWN 27% FROM DEBUT HIGH",
+   "body": "ANT premarket về ~83,71 USD lúc 20:39 giờ VN, chỉ còn cao hơn giá IPO 83 USD chưa tới 1 USD — tức -13,9% so với đóng cửa 97,17 USD hôm qua và -27% từ đỉnh 115,10 USD phiên debut. AI trade unwind tăng tốc ngay trước giờ mở cửa Mỹ 21:30, áp lực trực tiếp lên NQ tối nay.",
+   "source": "The Defiant / Finnhub"
+  },
+  {
+   "time_vn": "2026-11-20T20:40:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "NVIDIA DOWN MORE THAN 40% FROM OCTOBER HIGH AFTER SIX-DAY SLIDE",
+   "body": "NVDA đã giảm 6 phiên liên tiếp, mất 16% trong chuỗi này và thấp hơn hơn 40% so với mức đóng cửa cao nhất ngày 6/10; trước giờ mở cửa tối nay cổ phiếu còn chỉ xuống thêm ~2%. Áp lực bán với cổ phiếu nặng ký nhất nhóm AI/QQQ vẫn chưa dừng, NQ tối nay chịu áp lực giảm. Barron's vẫn giữ quan điểm Buy, 71% chuyên gia theo dõi vẫn xếp Buy.",
+   "source": "Barron's"
+  },
+  {
+   "time_vn": "2026-11-20T20:33:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "CALIFORNIA AG SUBPOENAS NVIDIA OVER EX-CEO HUANG'S ALLEGED CHINA TIES",
+   "body": "Tổng chưởng lý California Rob Bonta đã tống đạt trát điều tra Nvidia, điều tra xem chip AI tiên tiến hoặc thông tin mật của công ty có lọt sang Trung Quốc hay không và Nvidia có gây hiểu lầm cho nhà đầu tư về rủi ro này không. Đây là diễn biến pháp lý mới nhất trong vụ cựu CEO Jensen Huang từ chức, nối tiếp cuộc điều tra của SEC và thư yêu cầu của Hạ viện — thêm áp lực lên NVDA, cổ phiếu nặng ký nhất của QQQ, ngay trong phiên Mỹ tối nay.",
+   "source": "Reuters / Barron's"
+  },
+  {
+   "time_vn": "2026-11-20T20:30:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "ANTHROPIC PLUNGES ~10% PREMARKET ON DAY 2 AS AI TRADE UNWINDS",
+   "body": "ANT giao dịch premarket quanh 87,66 USD, giảm ~9,6% so với giá đóng cửa 97,17 USD hôm 19/11 (cao nhất phiên debut 115,10 USD). Mag 7 đa số giảm premarket (NVDA -2,3%, META -1,9%), futures Mỹ đi xuống; giới đầu tư đặt lại câu hỏi về định giá AI sau IPO kỷ lục.",
+   "source": "Reuters/Bloomberg/Investor's Business Daily"
+  },
+  {
+   "time_vn": "2026-11-20T20:30:00",
+   "direction": "down",
+   "category": "ĐỊA CHÍNH TRỊ",
+   "headline": "HOUTHIS THREATEN SAUDI RED SEA PORTS AS COALITION ORDERS HODEIDAH EVACUATION",
+   "body": "Liên quân Saudi yêu cầu dân thường sơ tán cảng Hodeidah (Biển Đỏ) hôm nay 20/11; Houthi đáp trả đe dọa đánh cảng Jeddah và mọi cảng Saudi ven Biển Đỏ nếu Hodeidah bị tấn công, cảnh báo không phận Saudi 'không an toàn' trong vài giờ tới và dọa đánh lại khu tài chính Riyadh — diễn biến mới sau vụ tên lửa trúng tháp PIF hôm 19/11.",
+   "source": "Reuters"
+  },
+  {
+   "time_vn": "2026-11-20T20:25:00",
    "direction": "neutral",
    "category": "LỊCH",
-   "headline": "NO RED-FOLDER US EVENTS TONIGHT; FRI 20/11 NORMAL TRADING",
-   "body": "Preview đầu tối: tối T5 19/11 không có sự kiện folder đỏ nào ảnh hưởng NQ/QQQ; ngày mai T6 20/11 thị trường Mỹ giao dịch bình thường, không bank holiday.",
-   "source": "ForexFactory Calendar"
+   "headline": "NO RED-TIER US EVENTS TONIGHT; US MARKETS CLOSED SATURDAY FOR WEEKEND",
+   "body": "Tối nay không có sự kiện folder đỏ nào liên quan NQ/QQQ. Ngày mai thứ Bảy 21/11 thị trường Mỹ nghỉ cuối tuần (không phải bank holiday); ngày nghỉ toàn thị trường gần nhất là Thanksgiving 26/11, sẽ báo trước vào tối 25/11.",
+   "source": "ForexFactory feed"
+  },
+  {
+   "time_vn": "2026-11-19T23:04:00",
+   "direction": "up",
+   "category": "TECH-AI",
+   "headline": "ANTHROPIC PRICES IPO AT $83/SHR — LARGEST IPO EVER; NQ FUT +2%",
+   "body": "Anthropic chốt giá IPO 83 USD/cp (khoảng chào bán 70–78), huy động ~81,3 tỷ USD, định giá ~1.500 tỷ USD, giao dịch trên Nasdaq với mã ANT. Nasdaq mở cửa +~2%, NVDA/AMD +~4%, INTC +8%, MU +6,5%.",
+   "source": "Reuters/CNBC"
+  },
+  {
+   "time_vn": "2026-11-19T23:04:00",
+   "direction": "down",
+   "category": "ĐỊA CHÍNH TRỊ",
+   "headline": "HOUTHI MISSILE HITS PIF TOWER IN RIYADH — REGIONAL ESCALATION",
+   "body": "Tên lửa Houthi đánh trúng tháp Public Investment Fund ở Riyadh rạng sáng 19/11, vỡ kính 7–8 tầng, chưa có thương vong báo cáo. Lần thứ 2 trong chưa đầy 2 tuần Houthi đánh trúng biểu tượng tài chính Riyadh; Saudi không kích trả đũa ở Yemen.",
+   "source": "Reuters/AFP"
   },
   {
    "time_vn": "2026-11-19T21:34:00",
@@ -90,116 +146,68 @@
    "source": "ForexFactory News"
   },
   {
-   "time_vn": "2026-11-19T23:04:00",
-   "direction": "up",
-   "category": "TECH-AI",
-   "headline": "ANTHROPIC PRICES IPO AT $83/SHR — LARGEST IPO EVER; NQ FUT +2%",
-   "body": "Anthropic chốt giá IPO 83 USD/cp (khoảng chào bán 70–78), huy động ~81,3 tỷ USD, định giá ~1.500 tỷ USD, giao dịch trên Nasdaq với mã ANT. Nasdaq mở cửa +~2%, NVDA/AMD +~4%, INTC +8%, MU +6,5%.",
-   "source": "Reuters/CNBC"
-  },
-  {
-   "time_vn": "2026-11-19T23:04:00",
-   "direction": "down",
-   "category": "ĐỊA CHÍNH TRỊ",
-   "headline": "HOUTHI MISSILE HITS PIF TOWER IN RIYADH — REGIONAL ESCALATION",
-   "body": "Tên lửa Houthi đánh trúng tháp Public Investment Fund ở Riyadh rạng sáng 19/11, vỡ kính 7–8 tầng, chưa có thương vong báo cáo. Lần thứ 2 trong chưa đầy 2 tuần Houthi đánh trúng biểu tượng tài chính Riyadh; Saudi không kích trả đũa ở Yemen.",
-   "source": "Reuters/AFP"
-  },
-  {
-   "time_vn": "2026-11-20T20:25:00",
+   "time_vn": "2026-11-19T20:29:00",
    "direction": "neutral",
    "category": "LỊCH",
-   "headline": "NO RED-TIER US EVENTS TONIGHT; US MARKETS CLOSED SATURDAY FOR WEEKEND",
-   "body": "Tối nay không có sự kiện folder đỏ nào liên quan NQ/QQQ. Ngày mai thứ Bảy 21/11 thị trường Mỹ nghỉ cuối tuần (không phải bank holiday); ngày nghỉ toàn thị trường gần nhất là Thanksgiving 26/11, sẽ báo trước vào tối 25/11.",
-   "source": "ForexFactory feed"
+   "headline": "NO RED-FOLDER US EVENTS TONIGHT; FRI 20/11 NORMAL TRADING",
+   "body": "Preview đầu tối: tối T5 19/11 không có sự kiện folder đỏ nào ảnh hưởng NQ/QQQ; ngày mai T6 20/11 thị trường Mỹ giao dịch bình thường, không bank holiday.",
+   "source": "ForexFactory Calendar"
   },
   {
-   "time_vn": "2026-11-20T20:30:00",
+   "time_vn": "2026-11-18T23:05:00",
    "direction": "down",
+   "category": "FED",
+   "headline": "FED'S WALLER: 'YOU HAVE TO GO 50 IN DECEMBER'",
+   "body": "Waller (CNBC) kêu gọi tăng 50 điểm cơ bản ngay tháng 12, có thể tổng cộng 100 điểm trở lên; viện 3 tháng liên tiếp core CPI +0,3%. Lợi suất ngắn hạn nhảy lên sau phát biểu.",
+   "source": "CNBC"
+  },
+  {
+   "time_vn": "2026-11-18T23:05:00",
+   "direction": "volatile",
    "category": "TECH-AI",
-   "headline": "ANTHROPIC PLUNGES ~10% PREMARKET ON DAY 2 AS AI TRADE UNWINDS",
-   "body": "ANT giao dịch premarket quanh 87,66 USD, giảm ~9,6% so với giá đóng cửa 97,17 USD hôm 19/11 (cao nhất phiên debut 115,10 USD). Mag 7 đa số giảm premarket (NVDA -2,3%, META -1,9%), futures Mỹ đi xuống; giới đầu tư đặt lại câu hỏi về định giá AI sau IPO kỷ lục.",
-   "source": "Reuters/Bloomberg/Investor's Business Daily"
-  },
-  {
-   "time_vn": "2026-11-20T20:30:00",
-   "direction": "down",
-   "category": "ĐỊA CHÍNH TRỊ",
-   "headline": "HOUTHIS THREATEN SAUDI RED SEA PORTS AS COALITION ORDERS HODEIDAH EVACUATION",
-   "body": "Liên quân Saudi yêu cầu dân thường sơ tán cảng Hodeidah (Biển Đỏ) hôm nay 20/11; Houthi đáp trả đe dọa đánh cảng Jeddah và mọi cảng Saudi ven Biển Đỏ nếu Hodeidah bị tấn công, cảnh báo không phận Saudi 'không an toàn' trong vài giờ tới và dọa đánh lại khu tài chính Riyadh — diễn biến mới sau vụ tên lửa trúng tháp PIF hôm 19/11.",
-   "source": "Reuters"
-  },
-  {
-   "time_vn": "2026-11-20T20:33:00",
-   "direction": "down",
-   "category": "TECH-AI",
-   "headline": "CALIFORNIA AG SUBPOENAS NVIDIA OVER EX-CEO HUANG'S ALLEGED CHINA TIES",
-   "body": "Tổng chưởng lý California Rob Bonta đã tống đạt trát điều tra Nvidia, điều tra xem chip AI tiên tiến hoặc thông tin mật của công ty có lọt sang Trung Quốc hay không và Nvidia có gây hiểu lầm cho nhà đầu tư về rủi ro này không. Đây là diễn biến pháp lý mới nhất trong vụ cựu CEO Jensen Huang từ chức, nối tiếp cuộc điều tra của SEC và thư yêu cầu của Hạ viện — thêm áp lực lên NVDA, cổ phiếu nặng ký nhất của QQQ, ngay trong phiên Mỹ tối nay.",
-   "source": "Reuters / Barron's"
-  },
-  {
-   "time_vn": "2026-11-20T20:40:00",
-   "direction": "down",
-   "category": "TECH-AI",
-   "headline": "NVIDIA DOWN MORE THAN 40% FROM OCTOBER HIGH AFTER SIX-DAY SLIDE",
-   "body": "NVDA đã giảm 6 phiên liên tiếp, mất 16% trong chuỗi này và thấp hơn hơn 40% so với mức đóng cửa cao nhất ngày 6/10; trước giờ mở cửa tối nay cổ phiếu còn chỉ xuống thêm ~2%. Áp lực bán với cổ phiếu nặng ký nhất nhóm AI/QQQ vẫn chưa dừng, NQ tối nay chịu áp lực giảm. Barron's vẫn giữ quan điểm Buy, 71% chuyên gia theo dõi vẫn xếp Buy.",
-   "source": "Barron's"
-  },
-  {
-   "time_vn": "2026-11-20T20:53:00",
-   "direction": "down",
-   "category": "TECH-AI",
-   "headline": "ANTHROPIC SLIDES TO NEAR IPO PRICE, DOWN 27% FROM DEBUT HIGH",
-   "body": "ANT premarket về ~83,71 USD lúc 20:39 giờ VN, chỉ còn cao hơn giá IPO 83 USD chưa tới 1 USD — tức -13,9% so với đóng cửa 97,17 USD hôm qua và -27% từ đỉnh 115,10 USD phiên debut. AI trade unwind tăng tốc ngay trước giờ mở cửa Mỹ 21:30, áp lực trực tiếp lên NQ tối nay.",
-   "source": "The Defiant / Finnhub"
-  },
-  {
-   "time_vn": "2026-11-20T21:02:00",
-   "direction": "neutral",
-   "category": "TECH-AI",
-   "headline": "ANTHROPIC IPO HAUL RISES TO $93.5B AS UNDERWRITERS EXERCISE GREENSHOE",
-   "body": "Reuters xác nhận Anthropic cho biết các underwriter đã thực hiện quyền greenshoe, nâng tổng tiền huy động từ IPO lên khoảng 93,5 tỷ USD (1,127 tỷ cổ phiếu × 83 USD). Diễn biến mới so với tối nay: lúc 20:55 con số này vẫn chỉ là mức tối đa giả thuyết vì greenshoe chưa được xác nhận. Hướng NQ trung tính — chỉ xác nhận quy mô IPO kỷ lục, không đổi diễn biến giá tối nay: ANT premarket vẫn ~83,71 USD, -13,9% so với đóng cửa hôm qua.",
-   "source": "Reuters/WSJ"
-  },
-  {
-   "time_vn": "2026-11-20T21:12:00",
-   "direction": "down",
-   "category": "TECH-AI",
-   "headline": "HOUSE DEMOCRATS OPEN PROBE INTO NVIDIA'S INFLUENCE ON MEGASPEED CHIP INVESTIGATION",
-   "body": "Dân biểu Dân chủ gửi thư ngày 19/11 cho Bộ trưởng Thương mại Lutnick, mở cuộc điều tra xem Nvidia có can thiệp vào quá trình điều tra của Bộ Thương mại về vụ Megaspeed chuyển chip trái phép sang Trung Quốc không; yêu cầu trả lời và tài liệu trước 1/12. WaPo cho biết Dân chủ dự định mở rộng điều tra Nvidia khi nắm lại Quốc hội năm sau. Đây là diễn biến pháp lý mới, tách biệt với trát điều tra của Tổng chưởng lý California đã báo lúc 20:33 — thêm áp lực lên NVDA, cổ phiếu nặng nhất NQ, trong lúc NVDA đã giảm hơn 40% từ đỉnh.",
-   "source": "Reuters / The Washington Post"
-  },
-  {
-   "time_vn": "2026-11-20T21:20:00",
-   "direction": "down",
-   "category": "ĐỊA CHÍNH TRỊ",
-   "headline": "IRAN READIES TANKER CONVOY TO BREAK US OIL BLOCKADE, WARNS GULF OIL FACILITIES AT RISK",
-   "body": "Iran đã tập kết hơn 14 tàu chở dầu có thủy thủ đoàn tại đảo Kharg, tắt AIS, chuẩn bị đi theo đoàn ra Vịnh Oman trong vài ngày tới để phá phong tỏa dầu của Mỹ; một vụ chuyển dầu tàu-sang-tàu đã bắt đầu, có thể là lô xuất khẩu đầu tiên của Iran kể từ giữa tháng 7. Fars (gắn với IRGC) cảnh báo chỉ cần một viên đạn trúng tàu Iran thì các cơ sở dầu khí của UAE, Saudi, Qatar, Bahrain, Kuwait và Oman sẽ bị đưa vào phương án đáp trả. CENTCOM hôm 18/11 đã mở rộng phong tỏa sang cả chuyển dầu tàu-sang-tàu và cảnh báo có thể dùng vũ lực. Nguy cơ va chạm hải quân Mỹ–Iran trực tiếp tăng mạnh, dầu và tâm lý risk-off có thể đè NQ tối nay.",
-   "source": "Iran International / Saudi Gazette / Al Jazeera"
-  },
-  {
-   "time_vn": "2026-11-20T21:34:00",
-   "direction": "down",
-   "category": "TECH-AI",
-   "headline": "US APPROVED 879,000 NVIDIA, AMD AI CHIPS FOR CHINA IN SIX MONTHS",
-   "body": "Ủy ban Đối ngoại Hạ viện Mỹ công bố dữ liệu cấp phép của Bộ Thương mại (BIS): từ 12/2025 đến 05/2026, Mỹ đã phê duyệt xuất khẩu 879.000 chip AI (Nvidia H200, AMD MI325X) sang Trung Quốc, trong đó 150.000 chip cho Tencent, 75.000 cho Alibaba, 43.000 cho Baidu và 4.000 cho BYD — cả 4 đều nằm trong danh sách công ty quân sự Trung Quốc của Lầu Năm Góc. Con số làm rõ quy mô chip AI Mỹ chảy sang Trung Quốc, đúng lúc Nvidia đang bị Tổng chưởng lý California điều tra và Hạ viện mở điều tra vụ Megaspeed — áp lực kiểm soát xuất khẩu với NVDA và AMD tăng thêm, nối dài đà bán nhóm chip/AI. Lưu ý: đây là số chip được phê duyệt cấp phép, chưa rõ bao nhiêu chiếc thực sự đã giao (Reuters).",
-   "source": "Reuters / House Foreign Affairs Committee"
-  },
-  {
-   "time_vn": "2026-11-20T21:40:00",
-   "direction": "down",
-   "category": "TECH-AI",
-   "headline": "WSJ: WALL STREET'S $500B NVIDIA FINANCING PLEDGE HAS DEPLOYED ZERO",
-   "body": "WSJ độc quyền ngày 18/11: chương trình tài trợ chip Nvidia công bố tháng 8 — Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs, KKR hứa huy động 500 tỷ USD để khách hàng mua chip — thực chất chỉ là MOU vài trang không ràng buộc, không công ty nào cam kết huy động tiền, và tới nay chưa giải ngân đồng nào. Nvidia chỉ hỗ trợ tối đa 25% chi phí dự án, thỏa thuận đầu tiên cũng không xong trước 2027, CEO tạm quyền Colette Kress đang siết lại các bảo lãnh. Mảng tối trực tiếp của câu chuyện nhu cầu AI, càng đè nặng NVDA vốn đã -40% từ đỉnh tối nay.",
+   "headline": "SEC PROBES NVIDIA DISCLOSURES; HOUSE PANEL SEEKS BRIEFING",
+   "body": "WSJ: SEC điều tra liệu công bố của Nvidia có gây hiểu lầm nhà đầu tư; Ủy ban Năng lượng & Thương mại Hạ viện yêu cầu CEO tạm quyền Colette Kress báo cáo về xuất khẩu chip. NVDA trả lại hết mức tăng premarket.",
    "source": "WSJ"
   },
   {
-   "time_vn": "2026-11-20T23:07:00",
+   "time_vn": "2026-11-18T21:34:00",
+   "direction": "up",
+   "category": "EARNINGS",
+   "headline": "NVIDIA BEATS: Q3 REV $115.8B, EPS $2.68; Q4 GUIDE $130B",
+   "body": "Doanh thu Q3 115,84 tỷ USD (dự báo ~109,1), EPS 2,68 (dự báo ~2,47), Data Center 107,6 tỷ (+110%); hướng dẫn Q4 130 tỷ (dự báo ~125,3). NVDA +2–3% premarket, NQ futures tăng theo.",
+   "source": "Company report"
+  },
+  {
+   "time_vn": "2026-11-18T21:34:00",
    "direction": "down",
-   "category": "TECH-AI",
-   "headline": "NVIDIA SLIPS BELOW ALPHABET IN MARKET VALUE, NOW 4TH LARGEST US COMPANY",
-   "body": "Nvidia rớt xuống hạng 4 trong các công ty Mỹ có giá trị lớn nhất, sau Alphabet (3.400 tỷ USD so với 3.440 tỷ USD, theo LSEG). Cổ phiếu đang hướng tới tuần giảm thứ 7 liên tiếp — chuỗi giảm dài nhất kể từ 2008. Đây là hệ quả trực tiếp của đợt bán tháo AI đã báo tối nay (NVDA -40% từ đỉnh), cho thấy dòng tiền đang xoay khỏi nhóm dẫn dắt AI sang các tên có doanh thu cloud/phần mềm ổn định hơn.",
-   "source": "Reuters"
+   "category": "ĐỊA CHÍNH TRỊ",
+   "headline": "IRAN STRIKES EXTEND TO KUWAIT; ADNOC TANKER HIT AT HORMUZ",
+   "body": "Iran nhắm căn cứ Mỹ Ali Al Salem (Kuwait), Bahrain chặn thêm đợt tấn công; tàu ADNOC ở Hormuz bị tấn công (11 bị thương, 1 mất tích). Brent ~92 USD, chưa bật mạnh.",
+   "source": "Turtle Hub News"
+  },
+  {
+   "time_vn": "2026-11-18T20:29:00",
+   "direction": "volatile",
+   "category": "FOLDER ĐỎ",
+   "headline": "FOMC MINUTES DUE 02:00 VN — ONLY RED EVENT TONIGHT",
+   "body": "Biên bản FOMC là sự kiện đỏ duy nhất tối 18/11; rơi vào 00:00–04:00 nên chỉ nằm trong lịch preview, không nhắc giữa đêm.",
+   "source": "ForexFactory Calendar"
+  },
+  {
+   "time_vn": "2026-11-17T21:34:00",
+   "direction": "down",
+   "category": "FED",
+   "headline": "FED'S MUSALEM: FOUR MORE RATE HIKES NEEDED",
+   "body": "Chủ tịch Fed St. Louis Musalem (CNBC) cho rằng cần tăng lãi suất thêm 4 lần nữa — củng cố cược Fed diều hâu, USD mạnh, áp lực lên NQ.",
+   "source": "CNBC"
+  },
+  {
+   "time_vn": "2026-11-17T21:06:00",
+   "direction": "down",
+   "category": "DATA",
+   "headline": "US RETAIL SALES BEAT: CORE +0.6% VS +0.4% EST",
+   "body": "Core Retail Sales +0,6% (dự báo +0,4%), toàn phần +0,2% (dự báo +0,1%) — tiêu dùng khỏe hơn dự báo, củng cố kịch bản Fed giữ lãi cao, áp lực lên NQ.",
+   "source": "US Census / Turtle Hub"
   }
  ]
 }
