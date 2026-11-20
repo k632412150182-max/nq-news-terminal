@@ -103,7 +103,7 @@
     <div class="cal-item closed"><div class="d">T6 25/12/2026 — CHRISTMAS</div><div class="t">NYSE / Nasdaq ĐÓNG CỬA cả ngày.</div></div>
 
     <h2 class="sec">GHI CHÚ</h2>
-    <div class="note">Badge LÊN / XUỐNG / NGANG / BIẾN ĐỘNG là dự đoán hướng tác động lên NQ/QQQ theo tin, không phải khẳng định chắc chắn. Bấm CHI TIẾT ở từng tin để xem nội dung và nguồn.</div>
+    <div class="note">Chấm tròn màu ở đầu mỗi tin là dự đoán hướng tác động lên NQ/QQQ: xanh lá = lên, đỏ = xuống, vàng = ngang, cam = biến động hai chiều. Không phải khẳng định chắc chắn. Bấm CHI TIẾT ở từng tin để xem nội dung và nguồn.</div>
   </aside>
 </div>
 
@@ -146,7 +146,7 @@ function render(){
     return `<div class="row">
       <div class="rowhead">
         <span class="time">${fmtTime(it.time_vn)}</span>
-        <span class="dir ${it.direction}"><span class="dot ${it.direction}"></span>${d.arrow} ${d.label}</span>
+        <span class="dir ${it.direction}" title="${d.label}"><span class="dot ${it.direction}"></span></span>
         <span class="cat">${esc(it.category)}</span>
         <span class="headline">${esc(it.headline)}</span>
         <button class="toggle" data-i="${i}" aria-expanded="false">CHI TIẾT ▼</button>
