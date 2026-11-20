@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NQ NEWS TERMINAL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#000; --panel:#0a0a0a; --line:#262626; --amber:#FF9E2C; --amber2:#FB8B1E;
+    --green:#2EBD85; --red:#F6465D; --yellow:#F0B90B; --text:#EAECEF; --muted:#848E9C;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{background:var(--bg); color:var(--text); font-family:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace; font-size:14px;}
+  a{color:var(--amber); text-decoration:none;}
+  /* Command bar */
+  .cmdbar{display:flex; flex-wrap:wrap; align-items:center; gap:10px 18px; padding:10px 14px; border-bottom:2px solid var(--amber); background:#050505; position:sticky; top:0; z-index:20;}
+  .logo{font-size:20px; font-weight:800; letter-spacing:1px; color:#fff;}
+  .logo .go{color:#000; background:var(--amber); padding:1px 7px; margin-left:6px; font-size:14px; vertical-align:2px;}
+  .clock{color:var(--amber); font-weight:600;}
+  .chip{border:1px solid var(--line); padding:3px 9px; font-size:11px; letter-spacing:.5px; color:var(--muted);}
+  .chip.live{color:#000; background:var(--green); border-color:var(--green); font-weight:700;}
+  .updated{margin-left:auto; color:var(--muted); font-size:11px;}
+  /* Ticker */
+  .ticker{overflow:hidden; border-bottom:1px solid var(--line); background:#070707; white-space:nowrap; height:30px; display:flex; align-items:center;}
+  .ticker-track{display:inline-block; padding-left:100%; animation:tick 90s linear infinite;}
+  @keyframes tick{from{transform:translateX(0)} to{transform:translateX(-100%)}}
+  .ticker span{margin-right:48px; font-size:12px; color:#cfd3d8;}
+  .ticker b.up{color:var(--green);} .ticker b.down{color:var(--red);} .ticker b.neutral{color:var(--yellow);} .ticker b.volatile{color:var(--amber);}
+  /* Layout */
+  .layout{display:grid; grid-template-columns:1fr 320px; gap:0; max-width:1440px; margin:0 auto;}
+  @media (max-width:900px){ .layout{grid-template-columns:1fr;} }
+  .wire{padding:10px 14px 30px; border-right:1px solid var(--line);}
+  @media (max-width:900px){ .wire{border-right:none;} }
+  .side{padding:10px 14px 30px;}
+  h2.sec{font-size:12px; letter-spacing:2px; color:var(--amber); border-bottom:1px solid var(--line); padding-bottom:6px; margin:14px 0 10px;}
+  /* Filters */
+  .filters{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:6px;}
+  .fbtn{background:#0d0d0d; color:var(--muted); border:1px solid var(--line); font:inherit; font-size:11px; letter-spacing:.5px; padding:6px 12px; cursor:pointer; min-height:32px;}
+  .fbtn.on{color:#000; background:var(--amber); border-color:var(--amber); font-weight:700;}
+  /* News rows */
+  .row{border-bottom:1px solid #161616; padding:9px 2px;}
+  .rowhead{display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;}
+  .time{color:var(--muted); font-size:12px; min-width:86px;}
+  .dir{font-size:11px; font-weight:700; letter-spacing:.5px; white-space:nowrap;}
+  .dir.up{color:var(--green);} .dir.down{color:var(--red);} .dir.neutral{color:var(--yellow);} .dir.volatile{color:var(--amber);}
+  .dot{display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:5px; vertical-align:0;}
+  .dot.up{background:var(--green);} .dot.down{background:var(--red);} .dot.neutral{background:var(--yellow);} .dot.volatile{background:var(--amber);}
+  .cat{border:1px solid var(--amber2); color:var(--amber); font-size:10px; padding:1px 6px; letter-spacing:.5px; white-space:nowrap;}
+  .headline{font-weight:600; color:#fff; flex:1 1 260px; line-height:1.45;}
+  .toggle{background:none; border:1px solid var(--line); color:var(--amber); font:inherit; font-size:11px; padding:4px 10px; cursor:pointer; min-height:28px; white-space:nowrap;}
+  .toggle:hover{border-color:var(--amber);}
+  .detail{display:none; padding:8px 2px 4px 0; color:#c9ced4; line-height:1.65; max-width:900px;}
+  .detail.open{display:block;}
+  .src{margin-top:6px; color:var(--muted); font-size:11px; letter-spacing:.5px;}
+  .src b{color:var(--amber); font-weight:600;}
+  /* Side panel */
+  .cal-item{border:1px solid var(--line); background:var(--panel); padding:9px 11px; margin-bottom:8px;}
+  .cal-item .d{color:var(--amber); font-weight:700; font-size:12px;}
+  .cal-item .t{color:#dfe3e7; margin-top:3px; line-height:1.5; font-size:13px;}
+  .cal-item.closed{border-color:var(--red);}
+  .cal-item.early{border-color:var(--yellow);}
+  .count{font-size:22px; font-weight:800; color:#fff;}
+  .note{color:var(--muted); font-size:11px; line-height:1.7;}
+  footer{border-top:1px solid var(--line); padding:12px 14px 26px; color:var(--muted); font-size:11px; line-height:1.7; max-width:1440px; margin:0 auto;}
+  .empty{color:var(--muted); padding:22px 0;}
+</style>
+</head>
+<body>
+
+<div class="cmdbar">
+  <div class="logo">NQ NEWS<span class="go">&lt;GO&gt;</span></div>
+  <div class="clock" id="clock">--:--:-- VN</div>
+  <div class="chip" id="sessionChip">…</div>
+  <div class="updated" id="updated">ĐANG TẢI DỮ LIỆU…</div>
+</div>
+
+<div class="ticker"><div class="ticker-track" id="ticker"></div></div>
+
+<div class="layout">
+  <main class="wire">
+    <h2 class="sec">NEWS WIRE — NQ / QQQ</h2>
+    <div class="filters" id="filters">
+      <button class="fbtn on" data-f="all">TẤT CẢ</button>
+      <button class="fbtn" data-f="red">FOLDER ĐỎ &amp; FED</button>
+      <button class="fbtn" data-f="geo">ĐỊA CHÍNH TRỊ</button>
+      <button class="fbtn" data-f="tech">TECH &amp; EARNINGS</button>
+    </div>
+    <div id="rows"><div class="empty">Đang tải…</div></div>
+  </main>
+
+  <aside class="side">
+    <h2 class="sec">ĐẾM NGƯỢC TỚI GIỜ CANH</h2>
+    <div class="count" id="countdown">--:--:--</div>
+    <div class="note" id="countNote">Cửa sổ canh tin: 20:30–23:30 giờ VN, thứ Hai–thứ Sáu.</div>
+
+    <h2 class="sec">LỊCH ĐỎ &amp; NGÀY NGHỈ MỸ</h2>
+    <div class="cal-item"><div class="d">T6 20/11/2026</div><div class="t">Giao dịch bình thường — không sự kiện folder đỏ tối nay.</div></div>
+    <div class="cal-item closed"><div class="d">T5 26/11/2026 — THANKSGIVING</div><div class="t">NYSE / Nasdaq ĐÓNG CỬA cả ngày.</div></div>
+    <div class="cal-item early"><div class="d">T6 27/11/2026 — BLACK FRIDAY</div><div class="t">Đóng cửa sớm 13:00 ET.</div></div>
+    <div class="cal-item early"><div class="d">T4 24/12/2026 — CHRISTMAS EVE</div><div class="t">Đóng cửa sớm 13:00 ET.</div></div>
+    <div class="cal-item closed"><div class="d">T6 25/12/2026 — CHRISTMAS</div><div class="t">NYSE / Nasdaq ĐÓNG CỬA cả ngày.</div></div>
+
+    <h2 class="sec">GHI CHÚ</h2>
+    <div class="note">Badge LÊN / XUỐNG / NGANG / BIẾN ĐỘNG là dự đoán hướng tác động lên NQ/QQQ theo tin, không phải khẳng định chắc chắn. Bấm CHI TIẾT ở từng tin để xem nội dung và nguồn.</div>
+  </aside>
+</div>
+
+<footer>
+  NQ NEWS TERMINAL — nguồn: ForexFactory / Turtle Hub News, tổng hợp và kiểm chứng bởi Muse. Trang tự làm mới dữ liệu mỗi 60 giây.<br>
+  Đây không phải lời khuyên đầu tư.
+</footer>
+
+<script>
+const DIR = {
+  up:      {label:"LÊN",       arrow:"▲"},
+  down:    {label:"XUỐNG",     arrow:"▼"},
+  neutral: {label:"NGANG",     arrow:"↔"},
+  volatile:{label:"BIẾN ĐỘNG", arrow:"⚡"}
+};
+const RED_CATS = ["FOLDER ĐỎ","FED","DATA"];
+let ALL = [], filter = "all";
+
+function inGroup(item){
+  if(filter==="all") return true;
+  const c = (item.category||"").toUpperCase();
+  if(filter==="red") return RED_CATS.includes(c);
+  if(filter==="geo") return c.includes("ĐỊA CHÍNH TRỊ");
+  if(filter==="tech") return c.startsWith("TECH-AI") || c==="EARNINGS";
+  return true;
+}
+function fmtTime(iso){
+  const d = new Date(iso);
+  const p = n => String(n).padStart(2,"0");
+  return p(d.getHours())+":"+p(d.getMinutes())+" "+p(d.getDate())+"/"+p(d.getMonth()+1);
+}
+function esc(s){ const e=document.createElement("div"); e.textContent=s||""; return e.innerHTML; }
+
+function render(){
+  const rows = document.getElementById("rows");
+  const list = ALL.filter(inGroup);
+  if(!list.length){ rows.innerHTML = '<div class="empty">Không có tin trong nhóm này.</div>'; return; }
+  rows.innerHTML = list.map((it,i)=>{
+    const d = DIR[it.direction] || DIR.neutral;
+    return `<div class="row">
+      <div class="rowhead">
+        <span class="time">${fmtTime(it.time_vn)}</span>
+        <span class="dir ${it.direction}"><span class="dot ${it.direction}"></span>${d.arrow} ${d.label}</span>
+        <span class="cat">${esc(it.category)}</span>
+        <span class="headline">${esc(it.headline)}</span>
+        <button class="toggle" data-i="${i}" aria-expanded="false">CHI TIẾT ▼</button>
+      </div>
+      <div class="detail" id="det-${i}">
+        <div>${esc(it.body)}</div>
+        <div class="src">SRC: <b>${esc(it.source)}</b></div>
+      </div>
+    </div>`;
+  }).join("");
+  rows.querySelectorAll(".toggle").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      const det = document.getElementById("det-"+btn.dataset.i);
+      const open = det.classList.toggle("open");
+      btn.textContent = open ? "THU GỌN ▲" : "CHI TIẾT ▼";
+      btn.setAttribute("aria-expanded", open);
+    });
+  });
+  const tk = document.getElementById("ticker");
+  tk.innerHTML = ALL.slice(0,12).map(it=>{
+    const d = DIR[it.direction] || DIR.neutral;
+    return `<span><b class="${it.direction}">${d.arrow}</b> ${esc(it.headline)}</span>`;
+  }).join("");
+}
+
+async function load(){
+  try{
+    const r = await fetch("news.json?t="+Date.now(), {cache:"no-store"});
+    const data = await r.json();
+    ALL = (data.items||[]).slice().sort((a,b)=> new Date(b.time_vn) - new Date(a.time_vn));
+    render();
+    const p = n => String(n).padStart(2,"0");
+    const now = new Date();
+    document.getElementById("updated").textContent =
+      "DỮ LIỆU TỚI " + (data.updated_at ? fmtTime(data.updated_at) : "—") +
+      " · LÀM MỚI " + p(now.getHours())+":"+p(now.getMinutes())+":"+p(now.getSeconds());
+  }catch(e){
+    document.getElementById("updated").textContent = "LỖI TẢI DỮ LIỆU — THỬ LẠI SAU 60S";
+  }
+}
+
+document.getElementById("filters").addEventListener("click", e=>{
+  const b = e.target.closest(".fbtn"); if(!b) return;
+  document.querySelectorAll(".fbtn").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); filter = b.dataset.f; render();
+});
+
+/* VN clock + session + countdown (Asia/Ho_Chi_Minh) */
+function vnNow(){ return new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Ho_Chi_Minh"})); }
+function tickClock(){
+  const n = vnNow(), p = x => String(x).padStart(2,"0");
+  document.getElementById("clock").textContent = p(n.getHours())+":"+p(n.getMinutes())+":"+p(n.getSeconds())+" VN";
+  const day = n.getDay(); // 0 Sun .. 6 Sat
+  const mins = n.getHours()*60 + n.getMinutes();
+  const inWatch = day>=1 && day<=5 && mins>=20*60+30 && mins<23*60+30;
+  const chip = document.getElementById("sessionChip");
+  chip.textContent = inWatch ? "● ĐANG TRONG PHIÊN CANH TIN" : "NGOÀI GIỜ CANH";
+  chip.classList.toggle("live", inWatch);
+  // next window start
+  let start = new Date(n); start.setHours(20,30,0,0);
+  if(n >= start || day===0 || day===6){
+    do{ start.setDate(start.getDate()+1); }while(start.getDay()===0 || start.getDay()===6);
+  }
+  if(inWatch){
+    document.getElementById("countdown").textContent = "ĐANG CANH";
+    document.getElementById("countNote").textContent = "Phiên canh kết thúc 23:30 giờ VN.";
+  }else{
+    let diff = Math.max(0, start - n);
+    const h = Math.floor(diff/3.6e6), m = Math.floor(diff%3.6e6/6e4), s = Math.floor(diff%6e4/1e3);
+    document.getElementById("countdown").textContent = p(h)+":"+p(m)+":"+p(s);
+    document.getElementById("countNote").textContent = "Tới cửa sổ canh tiếp theo: 20:30 giờ VN, thứ Hai–thứ Sáu.";
+  }
+}
+load();
+setInterval(load, 60000);
+tickClock();
+setInterval(tickClock, 1000);
+</script>
+</body>
+</html>
