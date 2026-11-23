@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-23T20:28:00+07:00",
+ "updated_at": "2026-11-23T20:33:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-23T20:33:00",
+   "direction": "up",
+   "category": "TECH-AI",
+   "headline": "NVDA bật +8% premarket sau khi Trump thúc HĐQT tái bổ nhiệm Jensen Huang",
+   "body": "NVDA tăng 8% lên 135,76 USD trong premarket thứ Hai, hồi từ đáy 18 tháng; SOXX +6%, nhóm chip hồi theo. Cuối tuần Trump đăng Truth Social kêu gọi HĐQT tái bổ nhiệm Huang, Bộ trưởng Tài chính Bessent cũng mềm giọng trên Meet the Press; Polymarket nâng xác suất Huang làm CEO tiếp theo từ dưới 10% lên ~19%. Lưu ý: HĐQT vẫn chưa đổi ý, chưa có quyết định — đây là cú hồi trên tin chính trị.",
+   "source": "MarketWatch"
+  },
   {
    "time_vn": "2026-11-23T20:28:00",
    "direction": "neutral",
