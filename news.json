@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-23T21:07:00+07:00",
+ "updated_at": "2026-11-23T21:10:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-23T21:10:00",
+   "direction": "up",
+   "category": "TECH-AI",
+   "headline": "NVDA vọt ~30% premarket sau tin phục chức Jensen Huang, Nasdaq futures +6,2%",
+   "body": "Sau quyết định phục chức Jensen Huang đã báo lúc 21:07, thị trường phản ứng mạnh: NVDA vọt tới ~30% premarket, lên gần 165 USD (từ mức đóng cửa thứ Sáu 125,53 USD), Nasdaq-100 futures +6,2%, S&P 500 futures +4%. Đây là cú đảo chiều của nhịp hồi +8% premarket buổi sáng — NVDA là mã nặng nhất QQQ nên đà này kéo NQ tối nay mạnh lên.",
+   "source": "WSJ / Barron's"
+  },
   {
    "time_vn": "2026-11-23T21:07:00",
    "direction": "up",
