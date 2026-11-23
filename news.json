@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-20T23:31:00+07:00",
+ "updated_at": "2026-11-23T20:28:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-23T20:28:00",
+   "direction": "neutral",
+   "category": "LỊCH",
+   "headline": "Tối nay không có sự kiện folder đỏ USD; ngày mai giao dịch bình thường",
+   "body": "Tối nay thứ Hai 23/11 không có sự kiện folder đỏ USD nào chờ công bố, nên NQ không có số liệu kinh tế hay phát biểu Fed nào làm driver. Ngày mai thứ Ba 24/11 thị trường Mỹ giao dịch bình thường; ngày nghỉ toàn thị trường gần nhất là Thanksgiving thứ Năm 26/11.",
+   "source": "ForexFactory"
+  },
   {
    "time_vn": "2026-11-20T23:46:00",
    "direction": "down",
