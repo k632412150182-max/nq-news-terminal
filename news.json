@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-23T21:10:00+07:00",
+ "updated_at": "2026-11-23T22:17:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-23T22:17:00",
+   "direction": "up",
+   "category": "TECH-AI",
+   "headline": "NQ futures tăng vọt hơn 7% rồi tạm ngưng vì chạm circuit breaker",
+   "body": "Hợp đồng tương lai Nasdaq 100 tăng vọt hơn 7% sau tin NVIDIA phục chức Jensen Huang và bị tạm ngưng giao dịch khoảng 21:20 giờ VN do chạm giới hạn biến động của CME. Giao dịch đã nối lại ngay sau đó; futures lùi từ đỉnh 26.878 về ~26.717, vẫn tăng hơn 6%.",
+   "source": "FXStreet / MarketWatch / WSJ"
+  },
   {
    "time_vn": "2026-11-23T21:10:00",
    "direction": "up",
