@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-23T22:17:00+07:00",
+ "updated_at": "2026-11-24T20:25:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-24T20:25:00",
+   "direction": "neutral",
+   "category": "LỊCH",
+   "headline": "Tối nay không có sự kiện folder đỏ của Mỹ; ngày mai 25/11 giao dịch bình thường",
+   "body": "Không có số liệu kinh tế Mỹ hay phát biểu Fed nào thuộc folder đỏ tối nay. Ngày mai thứ Tư 25/11 giao dịch bình thường, không có bank holiday. Ngày nghỉ toàn thị trường gần nhất là Thanksgiving thứ Năm 26/11, sẽ báo trước vào tối mai 25/11, cùng với phiên rút ngắn Black Friday thứ Sáu 27/11.",
+   "source": "ForexFactory"
+  },
   {
    "time_vn": "2026-11-23T22:17:00",
    "direction": "up",
