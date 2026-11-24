@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-24T20:27:00+07:00",
+ "updated_at": "2026-11-24T20:38:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-24T20:38:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "Anthropic lần đầu thủng giá IPO 83 USD, tech trả lại đà tăng sau cú hồi Huang",
+   "body": "Anthropic (ANT) rơi xuống dưới giá IPO 83 USD lần đầu tiên kể từ khi lên sàn 19/11 — premarket có lúc chỉ còn ~81,28 USD, giảm ~5–6,5% so với đóng cửa thứ Hai 87,64 USD, phiên giảm thứ 3 liên tiếp. Cùng lúc Nasdaq futures -1,7%, S&P 500 futures -1,03%, Nvidia -5% premarket sau cú +31,5% hôm thứ Hai — tech dẫn đầu đà giảm, NQ có thể mở cửa yếu.",
+   "source": "Reuters / Barron's / AP (MySA)"
+  },
   {
    "time_vn": "2026-11-24T20:27:00",
    "direction": "down",
