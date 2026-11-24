@@ -26,3 +26,12 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      # Pages deployments occasionally fail transiently or when the previous
+      # deployment is still finalising on GitHub's side (seen 2026-11-24:
+      # 4 failed runs, newest news item never went live). Wait, then retry once.
+      - if: steps.deployment.outcome == 'failure'
+        run: sleep 45
+      - id: deployment-retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
