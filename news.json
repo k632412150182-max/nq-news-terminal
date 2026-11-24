@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-24T20:55:00+07:00",
+ "updated_at": "2026-11-24T21:15:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-24T21:15:00",
+   "direction": "down",
+   "category": "ĐỊA CHÍNH TRỊ",
+   "headline": "Mỹ chuẩn bị tăng thuế với Trung Quốc, EU và 14 nước khác",
+   "body": "USTR Jamieson Greer dự kiến công bố kết quả điều tra Section 301 về trợ cấp công nghiệp ngay trong tuần này; sau tin WSJ (20:08 giờ VN), Nasdaq 100 futures giảm ~2,2%, VIX chạm 32,38. Đây mới là báo cáo của WSJ, chưa phải thông báo chính thức, nhưng là lực đè trực tiếp lên NQ trước giờ mở cửa tối nay.",
+   "source": "WSJ/MarketWatch"
+  },
   {
    "time_vn": "2026-11-24T20:55:00",
    "direction": "down",
