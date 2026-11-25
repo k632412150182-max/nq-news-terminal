@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-25T20:32:00+07:00",
+ "updated_at": "2026-11-25T20:36:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-25T20:36:00",
+   "direction": "down",
+   "category": "DATA",
+   "headline": "GDP quý 3 Mỹ tăng 4,3%, vượt xa dự báo 3,5%",
+   "body": "GDP quý 3 (ước tính lần 2) tăng 4,3%/năm, vượt dự báo 3,5% và cao hơn ước tính lần đầu 3,4%; BEA cho biết điều chỉnh tăng nhờ đầu tư và chi tiêu tiêu dùng. Core PCE tháng 10 tăng 0,3% đúng dự báo, nhưng Core PCE y/y lên 3,3% (dự báo 3,2%) — kinh tế mạnh + lạm phát dai dẳng củng cố khả năng Fed tăng lãi suất tháng 12, gây áp lực lên NQ.",
+   "source": "BEA; Myfxbook"
+  },
   {
    "time_vn": "2026-11-25T20:32:00",
    "direction": "down",
