@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-25T21:06:00+07:00",
+ "updated_at": "2026-11-25T22:18:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-25T22:18:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "WaPo: chip Blackwell B300 vẫn được rao bán công khai ở Thâm Quyến dù bị cấm",
+   "body": "Điều tra của The Washington Post ngày 25/11: thương nhân tại chợ điện tử Huaqiangbei, Thâm Quyến, công khai rao bán máy chủ Nvidia Blackwell B300, hệ thống 8 GPU giá 3–3,4 triệu USD, kênh cung ứng qua Hong Kong/kho trung gian. Đây là bằng chứng mới về lỗ hổng kiểm soát xuất khẩu với chip cao cấp nhất của Nvidia, nối trực tiếp câu chuyện Megaspeed/trốn kiểm soát xuất khẩu, tăng áp lực siết với NVDA/NQ tối nay. Lưu ý: chính WaPo ghi rõ chưa tự xác minh được tính xác thực của các hệ thống B300 được rao bán.",
+   "source": "The Washington Post"
+  },
   {
    "time_vn": "2026-11-25T21:06:00",
    "direction": "down",
