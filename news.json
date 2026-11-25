@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25T20:29:00+07:00",
+ "updated_at": "2026-11-25T20:26:00+07:00",
  "items": [
   {
    "time_vn": "2026-11-25T20:36:00",
@@ -24,6 +24,14 @@
    "headline": "Houthi tuyên bố tấn công nhà máy lọc dầu Ras Tanura và khu tài chính Riyadh",
    "body": "Houthi tuyên bố hôm nay đã tấn công nhà máy lọc dầu Ras Tanura (lớn nhất Saudi Arabia, sát cảng xuất khẩu dầu thô) gây cháy, đồng thời đánh khu tài chính Riyadh theo 3 đợt để trả đũa không kích của Saudi. Liên quân nói đã chặn 4 drone ở Ras Tanura, chưa xác nhận nhà máy bị trúng; ảnh vệ tinh NASA do Reuters xem cho thấy khói đen dày quanh nhà máy. Dầu tăng lại sau tin — lần đầu vòng leo thang này nhắm vào hạ tầng lọc dầu/xuất khẩu.",
    "source": "Reuters"
+  },
+  {
+   "time_vn": "2026-11-25T20:26:00",
+   "direction": "neutral",
+   "category": "LỊCH",
+   "headline": "Core PCE và GDP sơ bộ tối nay 20:30; Thanksgiving mai đóng cửa toàn thị trường Mỹ",
+   "body": "Tối nay 20:30 có 2 tin folder đỏ: Core PCE m/m dự báo 0,3% (kỳ trước 0,3%) và Prelim GDP q/q dự báo 3,5% (kỳ trước 3,4%). Mai thứ Năm 26/11 Thanksgiving: NYSE/Nasdaq và thị trường trái phiếu đóng cửa cả ngày. Thứ Sáu 27/11 giao dịch trở lại, đóng cửa sớm 13:00 giờ ET (cổ phiếu), 14:00 giờ ET (trái phiếu).",
+   "source": "ForexFactory / NYSE"
   },
   {
    "time_vn": "2026-11-24T22:40:00",
