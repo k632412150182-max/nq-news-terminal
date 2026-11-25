@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-25T20:54:00+07:00",
+ "updated_at": "2026-11-25T21:06:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-25T21:06:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "Reuters độc quyền: công ty liên quan Alice Huang huy động vốn bằng 270 triệu USD máy chủ AI ở Trung Quốc",
+   "body": "Hồ sơ tín dụng ngân hàng trung ương Trung Quốc do Reuters xem xét cho thấy tới 764 máy chủ/module AI trị giá 270 triệu USD (+31 triệu USD thiết bị kết nối), phần lớn tại trung tâm dữ liệu AI ở Thượng Hải, được dùng làm tài sản thế chấp để huy động vốn — trong lúc Mỹ đang điều tra Megaspeed có giúp khách hàng Trung Quốc lấy chip Nvidia bị hạn chế hay không. Lưu ý: hồ sơ không chứng minh các máy chủ chứa chip bị cấm; Megaspeed phủ nhận sai phạm. Thêm áp lực chính trị lên NVDA trước phiên điều trần của Huang ngày 1/12 và 3/12.",
+   "source": "Reuters"
+  },
   {
    "time_vn": "2026-11-25T20:54:00",
    "direction": "down",
