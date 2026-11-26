@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-26T20:32:00+07:00",
+ "updated_at": "2026-11-26T20:36:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-26T20:36:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "Nvidia yêu cầu dừng giao server AI sang 4 nước Đông Nam Á",
+   "body": "FT ngày 26/11 dẫn 3 nguồn thân cận: Nvidia đã yêu cầu các đối tác lắp ráp như Dell và Supermicro dừng giao server chứa chip AI sang Malaysia, Singapore, Thái Lan và Indonesia, trong lúc chờ làm rõ cách tuân thủ quy tắc kiểm soát xuất khẩu mới của Mỹ (BIS công bố 16/11, hiệu lực 19/11, yêu cầu giấy phép khi xuất chip AI tiên tiến sang 5 nước). Chưa rõ lệnh dừng là tạm thời hay kéo dài; Nvidia, Dell và Supermicro chưa bình luận. Đây là hệ quả thực thi đầu tiên của quy tắc mới, trực tiếp siết nguồn cung server AI — tiêu cực cho NVDA, cổ phiếu nặng nhất NQ. Lưu ý: tối nay Thanksgiving, NYSE/Nasdaq đóng cửa, NQ futures chạy qua đêm thanh khoản mỏng nên biến động có thể khuếch đại.",
+   "source": "Financial Times / Reuters"
+  },
   {
    "time_vn": "2026-11-26T20:32:00",
    "direction": "down",
