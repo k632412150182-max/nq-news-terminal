@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-26T20:36:00+07:00",
+ "updated_at": "2026-11-26T20:37:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-26T20:37:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "Quy tắc chip mới của Mỹ làm đóng băng hàng tỷ USD khoản vay trung tâm dữ liệu AI",
+   "body": "Bloomberg ngày 26/11: các ngân hàng đã phanh gấp hàng tỷ USD khoản vay gắn với các công ty Trung Quốc (ByteDance, Alibaba, Tencent) sau quy tắc kiểm soát xuất khẩu chip mới của Mỹ — khoản vay 6,6 tỷ USD cho Bridge Data Centres bị trì hoãn, khoản 480 triệu USD của Aolani (cung cấp năng lực tính toán cho ByteDance) bị tạm dừng, một quỹ rút khỏi khoản vay 300 triệu USD cho GMI Cloud (server phục vụ Tencent), UOB tìm cách chuyển ~1 tỷ USD rủi ro vay trung tâm dữ liệu. Cùng lúc hàng nghìn GPU B300 của Nvidia vốn dành cho các trung tâm dữ liệu phục vụ khách Trung Quốc đang được rao bán lại. Đây là mặt tài chính của cùng quy tắc khiến Nvidia dừng giao server — nhu cầu AI ngoài nước Mỹ đang bị siết cả ở khâu cung chip lẫn vốn vay, tiếp tục đè nặng nhóm AI/NVDA. Tối nay Thanksgiving, NYSE/Nasdaq đóng cửa, NQ futures chạy qua đêm thanh khoản mỏng.",
+   "source": "Bloomberg"
+  },
   {
    "time_vn": "2026-11-26T20:36:00",
    "direction": "down",
