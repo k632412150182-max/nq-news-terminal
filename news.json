@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-26T20:39:00+07:00",
+ "updated_at": "2026-11-26T20:51:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-26T20:51:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "S&P đưa xếp hạng tín dụng AA của Nvidia vào diện theo dõi hạ bậc vì rủi ro quản trị",
+   "body": "S&P Global Ratings tối thứ Tư 25/11 (giờ Mỹ) đưa xếp hạng AA của Nvidia vào CreditWatch Negative vì rủi ro quản trị tăng cao sau vụ CEO Jensen Huang từ chức rồi được phục chức, kèm lo ngại về hội đồng quản trị, kế hoạch kế nhiệm và kiểm soát xuất khẩu. S&P có thể hạ 1 bậc xuống AA- trong 90 ngày; Moody's giữ nguyên Aa1, triển vọng ổn định. Uy tín tín dụng của Nvidia là 'tài sản thế chấp' của làn sóng AI — Nvidia bảo lãnh tới 105 tỷ USD tiền thuê cho campus OpenAI ở Ohio và tới 125 tỷ USD trong gói tài trợ chip 500 tỷ USD, nên hạ bậc sẽ làm giá trị các bảo lãnh này kém đi.",
+   "source": "Semafor, S&P Global Ratings"
+  },
   {
    "time_vn": "2026-11-26T20:39:00",
    "direction": "down",
