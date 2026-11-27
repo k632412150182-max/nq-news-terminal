@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-27T20:28:00+07:00",
+ "updated_at": "2026-11-27T20:33:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-27T20:33:00",
+   "direction": "down",
+   "category": "TECH-AI",
+   "headline": "Chip Blackwell của Nvidia xuất hiện ở trung tâm dữ liệu Thượng Hải liên quan Alice Huang và Megaspeed",
+   "body": "Bloomberg dẫn hồ sơ nộp cho cơ quan quản lý Trung Quốc trong tháng 11: rack GB300 NVL72 (72 chip Blackwell Ultra + 36 Grace) được lắp tại dự án Yangtze River Delta ở Thượng Hải, công ty Shanghai Shuoyao dùng rack này làm tài sản thế chấp vay 96 triệu nhân dân tệ (~14 triệu USD); một công ty thứ hai kê khai server GB200 cùng địa điểm. Đây là bằng chứng tài liệu đầu tiên cho thấy chip Blackwell đã tới cơ sở liên quan Megaspeed — công ty vừa bị Mỹ đưa vào danh sách đen thương mại trong tuần này. Chưa rõ rack vào Trung Quốc bằng cách nào và có được cấp phép hay không; Bloomberg nói không có bằng chứng Megaspeed tự chuyển thiết bị tới đây. NVDA thu hẹp đà tăng premarket sau tin này.",
+   "source": "Bloomberg"
+  },
   {
    "time_vn": "2026-11-27T20:28:00",
    "direction": "up",
