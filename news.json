@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-27T20:25:00+07:00",
+ "updated_at": "2026-11-27T20:28:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-27T20:28:00",
+   "direction": "up",
+   "category": "TECH-AI",
+   "headline": "AI hồi mạnh premarket phiên Black Friday: NQ futures +2,45%, NVDA +4%, SanDisk +11%",
+   "body": "NQ futures tăng ~2,45–2,8% sau kỳ nghỉ Thanksgiving, dẫn đầu bởi nhóm AI/chip vừa bị bán tháo mạnh: SanDisk +11%, Marvell +7–8,6%, Micron +6%, NVDA +4% (từ 149,30 USD hôm thứ Tư), Anthropic +4–6%, nhóm optical và neocloud cũng bật mạnh. Nhịp bắt đáy sau chuỗi bán tháo AI, nhưng phiên nay đóng sớm 13:00 ET nên thanh khoản mỏng, đà hồi có thể biến động mạnh về cuối phiên.",
+   "source": "Barchart / Barron's"
+  },
   {
    "time_vn": "2026-11-27T20:25:00",
    "direction": "neutral",
