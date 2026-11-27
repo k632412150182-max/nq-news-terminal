@@ -1,6 +1,14 @@
 {
- "updated_at": "2026-11-26T21:22:00+07:00",
+ "updated_at": "2026-11-27T20:25:00+07:00",
  "items": [
+  {
+   "time_vn": "2026-11-27T20:25:00",
+   "direction": "neutral",
+   "category": "LỊCH",
+   "headline": "Tối nay không có sự kiện folder đỏ; phiên Black Friday đóng sớm 13:00 ET",
+   "body": "Không có sự kiện folder đỏ USD nào tối nay (feed ForexFactory rỗng). Phiên Black Friday đóng sớm: cổ phiếu 13:00 ET (01:00 VN rạng sáng mai), trái phiếu 14:00 ET — đã báo trước tối 25/11. Ngày mai thứ Bảy 28/11 thị trường nghỉ cuối tuần, không có bank holiday cần báo trước.",
+   "source": "ForexFactory feed"
+  },
   {
    "time_vn": "2026-11-26T21:22:00",
    "direction": "down",
